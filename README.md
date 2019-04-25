@@ -1,4 +1,4 @@
-# Webcodesk - a rapid development tool for React Web applications
+# Webcodesk desktop application
 
 This repository contains the source code of the Webcodesk desktop application.
 
@@ -36,7 +36,7 @@ Used tools and libraries:
 
 Run commands in the order as they are listed.
 
-### Bootstrap application
+#### Bootstrap application
 
 * `git clone https://github.com/webcodesk/webcodesk-app.git`
 * `cd webcodesk-app`
