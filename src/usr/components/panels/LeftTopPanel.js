@@ -122,13 +122,13 @@ class LeftTopPanel extends React.Component {
             />
           ))
         }
-        <ToolbarButton
-          title="Market"
-          iconType="CloudCircle"
-          iconColor="#2196f3"
-          onClick={this.handleOpenMarket}
-          tooltip="Search and install components and functions on the market"
-        />
+        {/*<ToolbarButton*/}
+          {/*title="Market"*/}
+          {/*iconType="CloudCircle"*/}
+          {/*iconColor="#2196f3"*/}
+          {/*onClick={this.handleOpenMarket}*/}
+          {/*tooltip="Search and install components and functions on the market"*/}
+        {/*/>*/}
       </div>
     );
   }

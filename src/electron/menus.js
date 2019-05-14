@@ -21,14 +21,14 @@ function createMainMenu(app, mainWindow, sendMainWindowMessage, options) {
     {
       label: 'File',
       submenu: [
-        {
-          id: 'file.signInOut',
-          label: 'Sign In',
-          click: () => {
-            sendMainWindowMessage(appWindowMessages.SHOW_SIGN_IN_DIALOG);
-          },
-        },
-        {type: 'separator'},
+        // {
+        //   id: 'file.signInOut',
+        //   label: 'Sign In',
+        //   click: () => {
+        //     sendMainWindowMessage(appWindowMessages.SHOW_SIGN_IN_DIALOG);
+        //   },
+        // },
+        // {type: 'separator'},
         {
           id: 'file.project.close',
           label: 'Close Project',
@@ -88,19 +88,21 @@ function createMainMenu(app, mainWindow, sendMainWindowMessage, options) {
   ];
 
   if (options) {
-    const {userProfile, isProjectOpen} = options;
-    if (userProfile) {
-      mainMenuTemplate[0].submenu[0].label = `Sign Out ${userProfile.userName}`;
-      mainMenuTemplate[0].submenu[0].click = () => {
-        sendMainWindowMessage(appWindowMessages.SHOW_SIGN_OUT_DIALOG);
-      };
-    } else {
-      mainMenuTemplate[0].submenu[0].label = `Sign In`;
-      mainMenuTemplate[0].submenu[0].click = () => {
-        sendMainWindowMessage(appWindowMessages.SHOW_SIGN_IN_DIALOG);
-      };
-    }
-    mainMenuTemplate[0].submenu[2].enabled = !!isProjectOpen;
+    // const {userProfile, isProjectOpen} = options;
+    // if (userProfile) {
+    //   mainMenuTemplate[0].submenu[0].label = `Sign Out ${userProfile.userName}`;
+    //   mainMenuTemplate[0].submenu[0].click = () => {
+    //     sendMainWindowMessage(appWindowMessages.SHOW_SIGN_OUT_DIALOG);
+    //   };
+    // } else {
+    //   mainMenuTemplate[0].submenu[0].label = `Sign In`;
+    //   mainMenuTemplate[0].submenu[0].click = () => {
+    //     sendMainWindowMessage(appWindowMessages.SHOW_SIGN_IN_DIALOG);
+    //   };
+    // }
+    // mainMenuTemplate[0].submenu[2].enabled = !!isProjectOpen;
+    const {isProjectOpen} = options;
+    mainMenuTemplate[0].submenu[0].enabled = !!isProjectOpen;
   }
 
   // Mac OS specifics for the first menu item:

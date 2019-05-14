@@ -140,13 +140,13 @@ class FunctionsFileView extends React.Component {
             )
             : (
               <CommonToolbar disableGutters={true} dense="true">
-                <ToolbarButton
-                  iconType="CloudUpload"
-                  title="Publish"
-                  onClick={this.handlePublish}
-                  tooltip="Publish functions to the market"
-                />
-                <CommonToolbarDivider/>
+                {/*<ToolbarButton*/}
+                  {/*iconType="CloudUpload"*/}
+                  {/*title="Publish"*/}
+                  {/*onClick={this.handlePublish}*/}
+                  {/*tooltip="Publish functions to the market"*/}
+                {/*/>*/}
+                {/*<CommonToolbarDivider/>*/}
                 <ToolbarButton
                   iconType="Edit"
                   title="Source Code"

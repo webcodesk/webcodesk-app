@@ -101,8 +101,8 @@ class ProjectLayout extends React.Component {
       <div className={classes.root}>
         <SplitPane
           split="vertical"
-          minSize={300}
-          defaultSize={300}
+          minSize={250}
+          defaultSize={250}
           onDragStarted={this.handleSplitterOnDragStarted}
           onDragFinished={this.handleSplitterOnDragFinished}
         >

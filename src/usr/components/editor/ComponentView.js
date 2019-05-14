@@ -345,13 +345,13 @@ class ComponentView extends React.Component {
                   }
                 />
                 <CommonToolbarDivider/>
-                <ToolbarButton
-                  iconType="CloudUpload"
-                  title="Publish"
-                  onClick={this.handlePublish}
-                  tooltip="Publish component to the market"
-                />
-                <CommonToolbarDivider/>
+                {/*<ToolbarButton*/}
+                  {/*iconType="CloudUpload"*/}
+                  {/*title="Publish"*/}
+                  {/*onClick={this.handlePublish}*/}
+                  {/*tooltip="Publish component to the market"*/}
+                {/*/>*/}
+                {/*<CommonToolbarDivider/>*/}
                 <ToolbarButton
                   iconType="Edit"
                   title="Source Code"
