@@ -1,10 +1,8 @@
-# Webcodesk desktop application
+**This version of Webcodesk is deprecated. Please take a look at the next version of Webcodesk here: [webcodesk-srv](https://github.com/webcodesk/webcodesk-srv) **
+
+# Webcodesk desktop application [DEPRECATED]
 
 This repository contains the source code of the Webcodesk desktop application.
-
-Learn more about Webcodesk in [Documentation](https://webcodesk.com/documentation).
-
-Download binary executables for your operating system from [Webcodesk site](https://webcodesk.com).
 
 ### What's inside?
 
