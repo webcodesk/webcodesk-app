@@ -40,7 +40,7 @@
     "gulp-javascript-obfuscator": "1.1.5",
     "jsonwebtoken": "8.4.0",
     "localforage": "1.7.3",
-    "lodash": "4.17.11",
+    "lodash": "4.17.13",
     "markdown-it": "8.4.2",
     "minimatch": "3.0.4",
     "notistack": "0.4.1",
