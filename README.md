@@ -1,4 +1,4 @@
-**This version of Webcodesk is deprecated. Please take a look at the next version of Webcodesk here: [webcodesk-srv](https://github.com/webcodesk/webcodesk-srv) **
+**This version of Webcodesk is deprecated. Please take a look at the next version of Webcodesk here: [webcodesk-srv](https://github.com/webcodesk/webcodesk-srv)**
 
 # Webcodesk desktop application [DEPRECATED]
 
